@@ -84,7 +84,7 @@ class _EditProfilePageState extends State<EditProfilePage> {
                         ],
                       ),
                       Padding(
-                        padding: const EdgeInsets.fromLTRB(35.0, 0.0, 0.0, 0.0),
+                        padding: const EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 0.0),
                         child: Center(
                           child: Container(
                             child: Column(

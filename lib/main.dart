@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:bloomzon/professional-services/proservicedashboard.dart';
+import 'package:bloomzon/agents/agentdashboard.dart';
 import 'package:flutter/material.dart';
 
 void main() async {
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: ProServiceDashboardPage(),
+      home: AgentDashboardPage(),
     );
   }
 }

@@ -23,7 +23,7 @@ class _CreateSellerPageState extends State<CreateSellerPage> {
                 Container(
                   height: 150,
                   width: 450,
-                  padding: EdgeInsets.fromLTRB(110.0, 0.0, 0.0, 0.0),
+                  padding: EdgeInsets.fromLTRB(80.0, 0.0, 0.0, 0.0),
                   color: Color(0xff02499B),
                   child: Text(
                     "Create Seller Account",
@@ -40,7 +40,6 @@ class _CreateSellerPageState extends State<CreateSellerPage> {
                       Container(
                         margin: EdgeInsets.only(
                             left: 0, top: 40, right: 0, bottom: 0),
-                        height: 530,
                         width: 370,
                         decoration: BoxDecoration(
                           color: Colors.white,
@@ -64,7 +63,11 @@ class _CreateSellerPageState extends State<CreateSellerPage> {
                             SizedBox(
                               height: 20,
                             ),
-                            Image.asset('images/userface.png'),
+                            Image.asset(
+                              'images/userface.png',
+                              width: 105,
+                              height: 100,
+                            ),
                             SizedBox(
                               height: 10,
                             ),
@@ -461,11 +464,8 @@ class _CreateSellerPageState extends State<CreateSellerPage> {
                     ],
                   ),
                 ),
-                SizedBox(
-                  height: 30,
-                ),
                 Padding(
-                  padding: const EdgeInsets.fromLTRB(0.0, 600.0, 0.0, 0.0),
+                  padding: const EdgeInsets.fromLTRB(0.0, 630.0, 0.0, 0.0),
                   child: Center(
                     child: Column(
                       children: <Widget>[
@@ -495,9 +495,6 @@ class _CreateSellerPageState extends State<CreateSellerPage> {
                                   color: Colors.white,
                                 ),
                               )),
-                        ),
-                        SizedBox(
-                          height: 20,
                         ),
                       ],
                     ),

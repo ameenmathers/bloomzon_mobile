@@ -167,20 +167,38 @@ class _AgentDashboardPageState extends State<AgentDashboardPage> {
                                       Image.asset(
                                         'images/human.png',
                                       ),
-                                      Image.asset(
-                                        'images/human.png',
+                                      SizedBox(
+                                        width: 10,
                                       ),
                                       Image.asset(
                                         'images/human.png',
                                       ),
-                                      Image.asset(
-                                        'images/human.png',
+                                      SizedBox(
+                                        width: 10,
                                       ),
                                       Image.asset(
                                         'images/human.png',
                                       ),
+                                      SizedBox(
+                                        width: 10,
+                                      ),
                                       Image.asset(
                                         'images/human.png',
+                                      ),
+                                      SizedBox(
+                                        width: 10,
+                                      ),
+                                      Image.asset(
+                                        'images/human.png',
+                                      ),
+                                      SizedBox(
+                                        width: 10,
+                                      ),
+                                      Image.asset(
+                                        'images/human.png',
+                                      ),
+                                      SizedBox(
+                                        width: 10,
                                       ),
                                       Image.asset(
                                         'images/human.png',
@@ -189,7 +207,7 @@ class _AgentDashboardPageState extends State<AgentDashboardPage> {
                                   ),
                                   ButtonTheme(
                                     height: 39,
-                                    minWidth: 90,
+                                    minWidth: 80,
                                     child: RaisedButton(
                                         onPressed: () {},
                                         color: Color(0xffBA220E),
@@ -247,8 +265,14 @@ class _AgentDashboardPageState extends State<AgentDashboardPage> {
                                       Image.asset(
                                         'images/human.png',
                                       ),
+                                      SizedBox(
+                                        width: 10,
+                                      ),
                                       Image.asset(
                                         'images/human.png',
+                                      ),
+                                      SizedBox(
+                                        width: 10,
                                       ),
                                       Image.asset(
                                         'images/human.png',
@@ -269,11 +293,21 @@ class _AgentDashboardPageState extends State<AgentDashboardPage> {
                                             Radius.circular(15.0),
                                           ),
                                         ),
-                                        child: Text(
-                                          'You have 11 more to go',
-                                          style: TextStyle(
-                                            color: Colors.white,
-                                          ),
+                                        child: Column(
+                                          children: <Widget>[
+                                            Text(
+                                              'You have 11',
+                                              style: TextStyle(
+                                                color: Colors.white,
+                                              ),
+                                            ),
+                                            Text(
+                                              'more to go',
+                                              style: TextStyle(
+                                                color: Colors.white,
+                                              ),
+                                            ),
+                                          ],
                                         )),
                                   ),
                                 ],
